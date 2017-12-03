@@ -1,0 +1,41 @@
+{
+  "name": "needle-cli",
+  "version": "0.1.0",
+  "description": "CLI for the needle service",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "lab"
+  },
+  "engines": {
+    "node": "lts/carbon"
+  },
+  "bin": {
+    "needle": "src/main.js"
+  },
+  "keywords": [
+    "tunnel",
+    "proxy",
+    "service"
+  ],
+  "author": "Arsalan Ahmad <contact@arsalan.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^5.1.2",
+    "lab": "^15.1.2",
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "boom": "^7.1.1",
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2",
+    "cosmiconfig": "^3.1.0",
+    "got": "^8.0.1",
+    "socket.io-client": "^2.0.4"
+  }
+}
